@@ -1,0 +1,110 @@
+body{margin:0; padding:0; font-size:13px; 
+    font-family: Georgia, 'Times New Roman', Times, serif; color:#919191;
+     }
+
+.navbar-default
+{
+   background-color:#333333;
+}
+
+ #sty{
+    display:block; float:right; margin:10px 0 0 400px; 
+    padding:12px 0; color:#C0BAB6; background-color:#232323;}    
+       
+#sty1{
+    display:inline; margin-right:25px; text-transform:uppercase;
+}
+
+.navbar-nav > li > a {
+ 
+    color: #d7e2e9;
+   
+  }
+
+.navbar-toggler-icon{
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+        }  
+
+.btn{
+    color: #FF9900;
+}
+        
+
+
+.left {
+    float: left;
+    width: 50%;
+}
+.right {
+    
+    float: right;
+    width: 50%;
+}
+.group:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 480px) {
+    .left, 
+    .right {
+        float: none;
+        width: auto;
+    }
+}
+
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+  }
+
+#foothead
+{
+    font-style: italic;
+    font-weight: 700;
+    color: white;
+}  
+
+.styp p{
+    color: #FF9900;
+    border-bottom:1px solid #555555;
+    font-size: 15px;
+}
+
+
+
+@media (max-width: 992px) {
+    #sty{
+        margin:0; width: 500px;
+        padding:12px 0; color:#C0BAB6; background-color:#232323;}    
+           
+    #sty1{
+        text-transform:uppercase;
+    }
+}
+
+@media (max-width: 768px) {
+    #sty{
+         margin:0; width: 300px;
+        color:#C0BAB6; background-color:#232323;}    
+           
+    #sty1{
+        display:inline-block;  text-transform:uppercase;
+    }
+}
+
+@media (max-width: 576px) {
+    #sty{
+         width: 150px;
+        padding:12px 0; color:#C0BAB6; background-color:#232323;}    
+           
+    #sty1{
+        text-transform:uppercase;
+    }
+}
